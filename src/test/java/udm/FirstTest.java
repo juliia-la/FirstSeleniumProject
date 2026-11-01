@@ -22,7 +22,6 @@ public class FirstTest {
             driver = new ChromeDriver();
             driver.manage().window().maximize();
 
-            // Відкриваємо безпосередньо сайт магазину АЛЛО
             driver.get("https://allo.ua");
         }
 
